@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>NEOM: Made to Change</title>
+</head>
+<body>
+    <header>
+        <a href="/index.html" class="logo">Neom</a>
+        <nav class="navigation">
+            <a href="/about.html">ABOUT</a>
+            <a href="/experts.html">OUR EXPERTS</a>
+            <a href="/news.html">NEWS</a>
+            <a href="/login.html">LOG IN</a>
+            <a href="/signup.html">SIGN UP</a>
+        </nav>
+    </header>
+
+    <style>
+        .main-2{
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        body {
+            font-family: "lato", sans-serif;
+          }
+          
+          .container {
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+          
+          h2 {
+            font-size: 26px;
+            margin: 20px 0;
+            text-align: center;
+          }
+          h2 small {
+            font-size: 0.7em;
+          }
+          
+          .responsive-table li {
+            border-radius: 3px;
+            padding: 25px 30px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 25px;
+          }
+          .responsive-table .table-header {
+            background-color: #95a5a6;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+          }
+          .responsive-table .table-row {
+            background-color: #ffffff;
+            box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+            width: 450px;
+            text-transform: uppercase;
+          }
+          .responsive-table .col-1 {
+            flex-basis: 50%;
+          }
+          .responsive-table .col-2 {
+            flex-basis: 25%;
+          }
+          @media all and (max-width: 767px) {
+            .responsive-table .table-header {
+              display: none;
+            }
+            .responsive-table li {
+              display: block;
+            }
+            .responsive-table .col {
+              flex-basis: 100%;
+            }
+            .responsive-table .col {
+              display: flex;
+              padding: 10px 0;
+            }
+            .responsive-table .col:before {
+              color: #6c7a89;
+              padding-right: 10px;
+              content: attr(data-label);
+              flex-basis: 50%;
+              text-align: right;
+            }
+          }
+    </style>
+
+    <section class="main-2">
+        <div class="container">
+            <h2>NEOM Website project</h2>
+            <h2><small>Done by Group 5, Section 172:</small></h2>
+            <ul class="responsive-table">
+              <li class="table-header">
+                <div class="col col-1">Name</div>
+                <div class="col col-2">ID</div>
+
+              </li>
+              <li class="table-row">
+                <div class="col col-1" data-label="Name">Rayan Almasar</div>
+                <div class="col col-2" data-label="ID">442019304</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" data-label="Name">Mansoor bin yahya</div>
+                <div class="col col-2" data-label="ID">442016458</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" data-label="Name">Mohannad al thafir</div>
+                <div class="col col-2" data-label="ID">442016826</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" data-label="Name">Mohammed Alsalloum</div>
+                <div class="col col-2" data-label="ID">442019048</div>
+              </li>
+            </ul>
+          </div>
+    </section>
+
+    <section class="main">
+        <div>
+            <h2><span>NEOM</span></h2>
+            <h3>Made to Change</h3>
+            <a href="/about.html" class="main-btn">LEARN MORE</a>
+            <div class="social-icons">
+                <a id="twitter" href="https://www.linkedin.com/company/discoverneom/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/NEOM"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/discoverneom/?hl=en"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCl0eCJPupCsTrobb_0bprhw"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">CONTACT US</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/company/discoverneom/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/NEOM"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/discoverneom/?hl=en"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCl0eCJPupCsTrobb_0bprhw"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
